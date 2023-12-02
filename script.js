@@ -10,8 +10,8 @@ button.addEventListener("click",async()=>{
     const res= await fetch(url);
     const data=await res.json();   
     // console.log(data.message);
-    dogImg.innerHTML=`<h3 id="style">Its Me..🥹</h3>
-    <img src="${data.message}" alt="Booklogo" id="main-image"></img>`
+    dogImg.innerHTML=`<h3 id="style">Click Again to change</h3>
+    <img src="${data.message}" alt="Dog-imgae" id="main-image"></img>`
     
 })
 
